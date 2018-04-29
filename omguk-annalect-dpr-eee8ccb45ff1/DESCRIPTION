@@ -1,0 +1,13 @@
+Package: DPR
+Type: Package
+Title: Contains functions to perform DPR
+Version: 1.0
+Date: 2015-05-26
+Author: Tim Scholtes
+Maintainer: Tim Scholtes <tim.scholtes@datasciencenetwork.com>
+Description: Red function does all the reshift operations, while blue code does
+    all the R stuff. The other functions are utilities.
+License: Private
+Depends:
+    reshape2,data.table,plyr,DBI,RPostgreSQL,stringr,ISOweek,lubridate,stringi,ggplot2,scales,dygraphs,xts,dplyr,shiny,shinydashboard,ggvis,d3heatmap,plotrix,DT,grid
+RoxygenNote: 6.0.0
